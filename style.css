@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(241, 156, 156);
+}
+.header{
+    margin: 20px 30%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+i{
+    font-size: 70px;
+    /* border: 2px solid ; */
+}
+span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fa-xmark{
+    font-size: 20px;
+    position: absolute;
+    
+    left: 90%;
+    padding: 0;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    text-align: center;
+}
+.image{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    
+}
+
+.items-order li{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid;
+    margin: 0 5%;
+
+}
+.quantity{
+    width: 25px;
+    text-align: center;
+}
+.next{
+    margin-left: 80%;
+}
+.adress{
+    display: none;
+    margin: 10%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.adress_shop{
+    display: flex;
+}
+.adress-2{
+    display: none;
+    margin: 10%;
+    font-size: 20px;
+}
+.card{
+
+    
+    display: none;
+    margin: 10%;
+    font-size: large;
+}
+.card input{
+    box-sizing: border-box;
+    font-size: large;
+    size: 20px;
+}
+button{
+    width: auto;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+.end{
+    display: none;
+}
